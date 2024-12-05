@@ -8,7 +8,7 @@ function add(numbers){
     let finalNumArray = numArray.map(num=> parseInt(num)).filter(num => !isNaN(num) && num < 1000)
     const negativeNumbers = numArray.filter(num => num<0);
     if(negativeNumbers.length){
-        throw new error(`Negative numbers are not allowed: ${negativeNumbers.join(",")}`);
+        throw new Error(`Negative numbers are not allowed: ${negativeNumbers.join(",")}`);
     }
     let sum = 0;
     for(num of finalNumArray){
