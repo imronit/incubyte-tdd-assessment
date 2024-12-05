@@ -1,1 +1,1 @@
-# incubyte-tdd-assessment
+A string calculator using TDD
